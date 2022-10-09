@@ -6,8 +6,43 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    text-align: center;
+}
+.content-number {
+    background-color: #394974;
+    padding: 10px;
+    font-weight: 500;
+}
+.content-number a {
+    color: #fff;
 }
 
-html{
-    scroll-behavior: smooth;
+#logo {
+    width: 250px;
+    display: block;
+    position: relative;
+    margin-right: 170px;
+    margin-bottom: 10px;
+}
+.header {
+   border-bottom: 1px solid rgba(0,0 , 0, 0.2); 
+   width: 100%;
+   justify-content: center;
+   display: flex;
+   margin-top: 10px;
+}
+.header a {   
+    width: 100%;
+    max-width: 1200px;
+}
+.headerList li {
+    display: inline-flex;
+    margin: 20px;
+
+}
+.button {
+
 }
