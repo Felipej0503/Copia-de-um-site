@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -18,31 +17,40 @@ body {
 }
 .content-number a {
     color: #fff;
+    font-weight: 400;
 }
-
 #logo {
-    width: 250px;
-    display: block;
-    position: relative;
-    margin-right: 170px;
-    margin-bottom: 10px;
+    width: 240px;
 }
+
 .header {
-   border-bottom: 1px solid rgba(0,0 , 0, 0.2); 
-   width: 100%;
-   justify-content: center;
-   display: flex;
-   margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 10px 10px;
 }
-.header a {   
-    width: 100%;
-    max-width: 1200px;
+.headerList {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
-.headerList li {
-    display: inline-flex;
-    margin: 20px;
-
+.headerList a {
+    margin-right: 40px;
+    color: #1d1d1d;
+    font-weight: 500;
+    /* transition: 0.4s ease 0s; */
 }
-.button {
-
+.headerList a:hover {
+    color: #fad30a;   
+}
+.headerList a:first-child {
+    color: #fad30a;
+}
+.button{
+    color: #1d1d1d;
+    padding: 15px;
+    
+    
 }
