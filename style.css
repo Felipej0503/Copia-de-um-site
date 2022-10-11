@@ -40,7 +40,7 @@ body {
     margin-right: 40px;
     color: #1d1d1d;
     font-weight: 500;
-    /* transition: 0.4s ease 0s; */
+    transition: 0.4s ease 0s;
 }
 .headerList a:hover {
     color: #fad30a;   
