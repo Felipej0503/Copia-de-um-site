@@ -27,7 +27,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 20px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     padding: 10px 10px;
 }
@@ -35,12 +35,13 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-left: 80px;
 }
 .headerList a {
     margin-right: 40px;
     color: #1d1d1d;
     font-weight: 500;
-    transition: 0.4s ease 0s;
+    /* transition: 0.4s ease 0s; */
 }
 .headerList a:hover {
     color: #fad30a;   
@@ -48,9 +49,28 @@ body {
 .headerList a:first-child {
     color: #fad30a;
 }
-.button{
-    color: #1d1d1d;
-    padding: 15px;
-    
-    
+.button a{
+    color: #000;
+    padding: 15px 20px;
+
+}
+.button {
+    padding: 15px 20px;
+    border: 2px solid #d1b425;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #fad30a;
+    transition: 0.3s ease;
+}
+.button a:hover {
+    color: #000a;
+}
+.button:hover {
+    padding: 15px 20px;
+    border: 2px solid #000;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #fff;
 }
