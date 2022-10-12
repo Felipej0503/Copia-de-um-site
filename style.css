@@ -47,7 +47,7 @@ body {
     color: #fad30a;   
 }
 .headerList a:first-child {
-    color: #fad30a;
+    color: rgb(250, 211, 10);
 }
 .button a{
     color: #000;
@@ -55,22 +55,21 @@ body {
 
 }
 .button {
-    padding: 15px 20px;
-    border: 2px solid #d1b425;
-    border-radius: 30px;
-    font-size: 15px;
-    font-weight: 500;
-    background-color: #fad30a;
-    transition: 0.3s ease;
-}
-.button a:hover {
-    color: #000a;
-}
-.button:hover {
-    padding: 15px 20px;
-    border: 2px solid #000;
-    border-radius: 30px;
+    padding: 10px 10px;
+    border: 3px solid rgba(250, 211, 10, 0.8);
+    border-radius: 20px;
     font-size: 15px;
     font-weight: 500;
     background-color: #fff;
+    transition: 0.3s ease;
+}
+.button a:hover {
+    color: #000;
+}
+.button:hover {
+    padding: 10px 10px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgb(250, 211, 10);
 }
