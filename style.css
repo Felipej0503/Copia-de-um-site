@@ -81,7 +81,7 @@
     padding: 13% 10% 20% 10%;
     margin-left: 14.3%  ;
 } 
-.inline-content-text {
+.inline-content-text-1 {
     color: #394974;
     font-size: 13px;
     letter-spacing: 4px ;
@@ -111,12 +111,44 @@
 .button-element-2 {
     padding: 1% 4% 1% 4%;
     border-radius: 30px;
+    background-color: #fff;
 }
 .button-element-a a {
     color: #000;
     font-size: 16px;
     font-weight: 500;
 }
-#sobre {
-
+.sobreContainer {
+    padding: 200px;
+    margin: 0 45% 2% 16.2%;
+    word-wrap: normal;
+    display: block;
+}
+.inline-content-text {
+    color: #394974;
+    font-size: 13px;
+    letter-spacing: 4px ;
+    margin-left: 5px;   
+}
+.headContainer {
+    margin: 20px 0 20px 0;
+    font-size: 2.5rem;
+}
+.pContainer {
+    color: #474a57;
+    line-height: 25px;
+}
+.logoContainer img {
+    width: 20%;
+    float: right;
+    display: block;
+    margin-top: -16.5%;
+    margin-right: 30%;
+}
+.button-element-container {
+    padding: 2% 17% 2% 17%;
+    margin: 7% 0 0 -1%;
+    border-radius: 30px;
+    background-color: #f4d700;
+    border: none;
 }
