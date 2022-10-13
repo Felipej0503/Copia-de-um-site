@@ -82,6 +82,7 @@
     background-size: cover;
     background-position: right auto;
     padding: 200px;
+    margin-left: -55px ;
 } 
 .inline-content-text {
     color: #394974;
@@ -93,14 +94,13 @@
     margin: 20px 0 -10px 0;
 }
 .head-text-content {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 400;
-    margin: 0;
 }
 .img-computer {  
     width: 635px;
     margin-left: 500px;
-    margin-top: -200px;
+    margin-top: -250px;
 }
 .button-element {
     position: absolute;
@@ -121,4 +121,7 @@
     color: #000;
     font-size: 16px;
     font-weight: 500;
+}
+#sobre {
+    margin: 0 130px 0 130px;
 }
