@@ -124,7 +124,7 @@
     word-wrap: normal;
     display: block;
     background-image: url("http://nossabrasil.com.br/wp-content/uploads/2022/07/blob-2.svg");
-    background-position: right;
+    background-repeat: no-repeat;
 }
 .inline-content-text {
     color: #394974;
@@ -144,8 +144,8 @@
     width: 20%;
     float: right;
     display: block;
-    margin-top: -20%;
-    margin-left: 50%;
+    margin-top: -11%;
+    margin-left: 28%;
     position: absolute;
 }
 .button-element-container {
