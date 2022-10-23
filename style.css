@@ -8,7 +8,7 @@
     scroll-behavior: smooth;
 }
 body {
-    max-width: 2500px;
+    /* max-width: 2500px; */
 }
 .content-number {
     background-color: #394974;
@@ -180,5 +180,24 @@ body {
 }
 .services-container {
     background-color: #f8f8f8;
-    display: grid;
+    padding: 40px 0 40px 0;
 }
+.services-title {
+    font-size: 36px;
+    margin: 20px 0 20px 0 ;
+}
+.box-content-services {
+    border: 2px solid black;
+    width: 23%;
+    padding: 50px 30px;
+}
+.box-content-services h2 {
+    margin: 15px 0 15px 0;
+    font-weight: 600;
+}
+.box-content-services p {
+    color: #474a57;
+}
+.box-content-services img {
+    width: 60px;
+}   
