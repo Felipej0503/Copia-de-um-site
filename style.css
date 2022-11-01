@@ -172,7 +172,9 @@ body {
 }
 .box-content-section {
     display: flex;
-    margin-left: 23.4%;      
+    margin-left: 23.4%;    
+    margin-bottom: 10%;  
+    color: #474a57;
 }
 .box-content h2 {
     margin: 15px 0 15px 0;
